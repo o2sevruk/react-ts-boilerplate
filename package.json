@@ -1,0 +1,30 @@
+{
+  "name": "react--react-query--basics",
+  "version": "1.0.0",
+  "description": "react--react-query--basics",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development --hot"
+  },
+  "keywords": ["react", "react-query", "typescript"],
+  "author": "o2sevruk",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-query": "^3.39.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.3",
+    "html-webpack-plugin": "^5.5.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

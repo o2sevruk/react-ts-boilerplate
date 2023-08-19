@@ -6,3 +6,6 @@
 - TypeScript
 - React Query
 - React Router
+
+## License
+MIT

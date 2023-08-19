@@ -1,7 +1,7 @@
 {
-  "name": "react--react-query--basics",
+  "name": "react-ts-boilerplate",
   "version": "1.0.0",
-  "description": "react--react-query--basics",
+  "description": "Very basic React.js boilerplate",
   "scripts": {
     "start": "webpack-dev-server --open-app-name 'Google Chrome' --mode development --hot"
   },
@@ -13,7 +13,7 @@
     "boilerplate"
   ],
   "author": "o2sevruk",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",

@@ -1,11 +1,15 @@
-import React from 'react';
+import { QueryClient, QueryClientProvider } from "react-query";
 
-import Greetings from '@components/Greetings';
+import Root from "@/Root";
 
-function App() {
+const queryClient = new QueryClient();
+
+const App = () => {
   return (
-    <Greetings />
+    <QueryClientProvider client={queryClient}>
+      <Root />
+    </QueryClientProvider>
   );
-}
+};
 
 export default App;

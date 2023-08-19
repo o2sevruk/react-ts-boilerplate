@@ -11,16 +11,17 @@ module.exports = {
   },
   devServer: {
     static: "./dist",
+    historyApiFallback: true,
   },
   module: {
     rules: [
       {
-        test: /\.js|jsx?$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         loader: "babel-loader",
       },
       {
-        test: /\.ts|tsx?$/,
+        test: /\.(ts|tsx)$/,
         use: "ts-loader",
         exclude: /node_modules/,
       },
@@ -31,6 +32,7 @@ module.exports = {
     alias: {
       "@": path.resolve(__dirname, "src"),
       "@components": path.resolve(__dirname, "src/components/"),
+      "@pages": path.resolve(__dirname, "src/pages/"),
     },
   },
   plugins: [

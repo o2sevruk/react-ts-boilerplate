@@ -12,7 +12,11 @@
     "webpack",
     "boilerplate"
   ],
-  "author": "o2sevruk",
+  "author": {
+    "name": "Oleg Sevruk",
+    "email": "o2sevruk@gmail.com",
+    "role": "Frontend Developer"
+  },
   "license": "MIT",
   "dependencies": {
     "@types/react": "^18.2.20",

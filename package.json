@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Very basic React.js boilerplate",
   "scripts": {
-    "start": "webpack-dev-server --open-app-name 'Google Chrome' --mode development --hot"
+    "start": "webpack-dev-server --open --mode development --hot"
   },
   "keywords": [
     "react",

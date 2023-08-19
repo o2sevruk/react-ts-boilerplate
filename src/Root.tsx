@@ -1,6 +1,6 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import MainLayout from "@/layouts/Main";
+import MainLayout from "@layouts/Main";
 
 import Home from "@pages/Home";
 import About from "@pages/About";

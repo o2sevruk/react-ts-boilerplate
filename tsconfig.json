@@ -24,6 +24,12 @@
       ],
       "@pages/*": [
         "pages/*"
+      ],
+      "@layouts/*": [
+        "layouts/*"
+      ],
+      "@contexts/*": [
+        "contexts/*"
       ]
     }
   }
